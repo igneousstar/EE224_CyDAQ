@@ -1,0 +1,171 @@
+# Created by Ultra Librarian Gold 8.3.84 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SOP-8L.pac';
+Layer 1;
+Smd '1' 61.0236 23.622 -0 R0 (-106.2992 75);
+Layer 1;
+Smd '2' 61.0236 23.622 -100 R0 (-106.2992 25);
+Layer 1;
+Smd '3' 61.0236 23.622 -100 R0 (-106.2992 -25);
+Layer 1;
+Smd '4' 61.0236 23.622 -100 R0 (-106.2992 -75);
+Layer 1;
+Smd '5' 61.0236 23.622 -100 R0 (106.2992 -75);
+Layer 1;
+Smd '6' 61.0236 23.622 -100 R0 (106.2992 -25);
+Layer 1;
+Smd '7' 61.0236 23.622 -100 R0 (106.2992 25);
+Layer 1;
+Smd '8' 61.0236 23.622 -100 R0 (106.2992 75);
+Layer 51;
+Wire 6 (-147 -102) (-147 102);
+Wire 6 (-147 102) (-88 102);
+Wire 6 (147 102) (88 102);
+Wire 6 (147 102) (147 -102);
+Wire 6 (147 -102) (88 -102);
+Wire 6 (-147 -102) (-88 -102);
+Wire 6 (-88 102) (-88 107);
+Wire 6 (-88 107) (88 107);
+Wire 6 (88 107) (88 102);
+Wire 6 (88 -102) (88 -107);
+Wire 6 (88 -107) (-88 -107);
+Wire 6 (-88 -107) (-88 -102);
+Layer 51;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-146.811 -102) (-146.811 102) (-87.7559 102) (-87.7559 107.4409) \
+    (87.7559 107.4409) (87.7559 102) (146.811 102) (146.811 -102) (87.7559 -102) \
+    (87.7559 -107.4409) (-87.7559 -107.4409) (-87.7559 -102) (-146.811 -102);
+Layer 20;
+Wire 6 (-106 75) (-197 75);
+Wire 6 (-106 25) (-197 25);
+Wire 6 (-187 75) (-182 85);
+Wire 6 (-182 85) (-192 85);
+Wire 6 (-192 85) (-187 75);
+Wire 6 (-187 75) (-187 125);
+Wire 6 (-187 25) (-182 15);
+Wire 6 (-182 15) (-192 15);
+Wire 6 (-192 15) (-187 25);
+Wire 6 (-187 25) (-187 -25);
+Wire 6 (106 -75) (106 -157);
+Wire 6 (-106 -75) (-106 -157);
+Wire 6 (-106 -147) (-96 -152);
+Wire 6 (-96 -152) (-96 -142);
+Wire 6 (-96 -142) (-106 -147);
+Wire 6 (-106 -147) (-56 -147);
+Wire 6 (106 -147) (96 -152);
+Wire 6 (96 -152) (96 -142);
+Wire 6 (96 -142) (106 -147);
+Wire 6 (106 -147) (56 -147);
+Wire 6 (-78 97) (-78 212);
+Wire 6 (78 97) (78 212);
+Wire 6 (-78 197) (78 197);
+Wire 6 (-78 197) (-68 202);
+Wire 6 (-78 197) (-68 192);
+Wire 6 (-68 202) (-68 192);
+Wire 6 (78 197) (68 202);
+Wire 6 (78 197) (68 192);
+Wire 6 (68 202) (68 192);
+Wire 6 (78 97) (221 97);
+Wire 6 (78 -97) (221 -97);
+Wire 6 (206 97) (206 -97);
+Wire 6 (206 97) (201 87);
+Wire 6 (206 97) (211 87);
+Wire 6 (201 87) (211 87);
+Wire 6 (206 -97) (201 -87);
+Wire 6 (206 -97) (211 -87);
+Wire 6 (201 -87) (211 -87);
+Change Size 50;
+Change Ratio 6;
+Text 'Default Padstyle: OX61p02Y23p62D0T' SR0 (-735 -297);
+Change Size 50;
+Change Ratio 6;
+Text 'Pin 1 Padstyle: RX61p02Y23p62D0T' SR0 (-704 -357);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 1 Padstyle: OX60Y90D30P' SR0 (-583 -537);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 2 Padstyle: OX90Y60D30P' SR0 (-583 -597);
+Change Size 25;
+Change Ratio 4;
+Text '.05in/1.27mm' SR0 (-447 38);
+Change Size 25;
+Change Ratio 4;
+Text '.2125984in/5.4mm' SR0 (-170 -172);
+Change Size 25;
+Change Ratio 4;
+Text '0.156in/3.95mm' SR0 (-148 217);
+Change Size 25;
+Change Ratio 4;
+Text '0.195in/4.95mm' SR0 (226 -12);
+Layer 21;
+Wire 6 (-83 -102) (83 -102);
+Wire 6 (83 -49) (83 1);
+Wire 6 (83 102) (-83 102);
+Wire 6 (83 1) (83 51);
+Wire 6 (-169 75) -180 (-175 75);
+Wire 6 (-175 75) -180 (-169 75);
+Layer 51;
+Wire 6 (-78 -97) (78 -97);
+Wire 6 (78 -97) (78 97);
+Wire 6 (78 97) (-78 97);
+Wire 6 (-78 97) (-78 -97);
+Wire 0 (-65 75) -180 (-71 75);
+Wire 0 (-71 75) -180 (-65 75);
+Wire 6 (12 97) -180 (-12 97);
+Layer 23;
+Wire 6 (-10 0) (10 0);
+Wire 6 (0 -10) (0 10);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'AP1509-50SG-13.sym';
+Layer 94;
+Pin 'VIN' In None Middle R0 Both 0 (100 0)
+Pin 'OUTPUT' Out None Middle R0 Both 0 (100 -100)
+Pin 'FB' Out None Middle R0 Both 0 (100 -200)
+Pin 'SD' Pas None Middle R0 Both 0 (100 -300)
+Pin 'GND_2' Pwr None Middle R180 Both 0 (2300 -300)
+Pin 'GND_3' Pwr None Middle R180 Both 0 (2300 -200)
+Pin 'GND_4' Pwr None Middle R180 Both 0 (2300 -100)
+Pin 'GND' Pwr None Middle R180 Both 0 (2300 0)
+Wire 6 (300 200) (300 -500);
+Wire 6 (300 -500) (2100 -500);
+Wire 6 (2100 -500) (2100 200);
+Wire 6 (2100 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (1014 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (989 259);
+
+Edit 'AP1509-50SG-13.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add AP1509-50SG-13 'A' Next  0 (0 0);
+Package 'SOP-8L';
+Technology '';
+Attribute Manufacturer_Part_Number 'AP150950SG13';
+Attribute Vendor 'Diodes Inc';
+Connect 'A.VIN' '1';
+Connect 'A.OUTPUT' '2';
+Connect 'A.FB' '3';
+Connect 'A.SD' '4';
+Connect 'A.GND_2' '5';
+Connect 'A.GND_3' '6';
+Connect 'A.GND_4' '7';
+Connect 'A.GND' '8';
